@@ -1,13 +1,14 @@
 <?php
+// запуск: php -S localhost:8000
 
 namespace Seostat;
 
-include 'Task.php';
+require_once 'Autoloader.php';
 
 use Seostat\Task;
 
-try
-{
+try {
+    // вывод в браузер
     $task = new Task();
     echo '<h2>Задача 1</h2>';
     echo '<ul>';

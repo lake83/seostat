@@ -2,8 +2,6 @@
 
 namespace Seostat;
 
-include 'Curl.php';
-
 use Seostat\Curl;
 
 class Task
